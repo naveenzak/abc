@@ -11,7 +11,7 @@ public class BrowsersLaunching {
   public void f() throws InterruptedException {
 	  driver = new ChromeDriver();
 	  driver.manage().window().maximize();
-	  driver.get("https://www.google.com");
+	  driver.get("https://www.techlearn.in");
 	  Thread.sleep(2000);
 	  driver.findElement(By.xpath("/html/body/div[2]/div[2]/a[2]")).click();
 	  driver.close();
