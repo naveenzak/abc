@@ -9,12 +9,12 @@ import org.testng.annotations.AfterTest;
 public class TechlearnLogin {
 	WebDriver driver;
   @Test
-  public void google() {
-	  driver.get("https://www.google.com");
+  public void gmail() {
+	  driver.get("https://www.gmail.com");
   }
   @Test
-  public void facebook() {
-	  driver.get("https://www.facebook.com");
+  public void twitter() {
+	  driver.get("https://www.twitter.com");
   }
   @Test
   public void techlearn() {
@@ -28,7 +28,7 @@ public class TechlearnLogin {
 
   @AfterTest
   public void afterTest() {
-	  driver.quit();
+	  driver.close();
   }
 
 }
